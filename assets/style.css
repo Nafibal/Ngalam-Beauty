@@ -11,6 +11,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+  font-family: var(--text);
+  font-size: 16px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--subtitle);
+}
+h3 {
+  font-size: 42px;
+}
+h4 {
+  font-size: 26px;
+}
 
 header {
   height: 100vh;
@@ -73,4 +90,52 @@ ul,
   font-weight: 600;
   font-size: 30px;
   text-shadow: 4px 4px 6px black;
+}
+
+article {
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  /* border: 2px solid blue; */
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+  margin: 0.5rem;
+}
+.article_title {
+  margin-bottom: 1.5rem;
+}
+.article_subtitle {
+  margin-top: 2rem;
+}
+.article_text {
+  margin: 1.5rem 0;
+}
+.single_fact {
+  margin: 0 auto;
+  max-width: 350px;
+}
+.fact_text {
+  margin: 0.5rem;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  color: white;
+  background-color: #1f333c;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+.card_title {
+  margin-bottom: 1.5rem;
+  font-size: 30px;
+}
+.card_image {
+  width: 80%;
+  margin-bottom: 2rem;
 }

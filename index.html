@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -12,6 +11,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+
     <title>Ngalam~Beauty</title>
   </head>
   <body>
@@ -36,10 +44,143 @@
     </header>
 
     <main>
-      <div class="content"></div>
-      <aside></aside>
+      <div id="content">
+        <article class="about">
+          <h3 class="article_title">About Malang</h3>
+          <img
+            class="image"
+            src="./assets/images/malang2.jpg"
+            alt="Malang city"
+          />
+          <p class="article_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+            imperdiet ultricies quisque pretium tristique. Quis tellus eget
+            natoque quam quam. Nullam at in in eros, vestibulum nisi, neque
+            volutpat placerat. Dui nisi, porta tellus donec aliquet dui ultrices
+            iaculis. Duis tellus sed pellentesque in laoreet in justo. Bibendum
+            enim accumsan enim nibh. Tempor nunc fusce odio a pretium ut.
+          </p>
+          <img
+            class="image"
+            src="./assets/images/malang3.jpg"
+            alt="Malang city"
+          />
+          <p class="article_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
+            nibh ornare amet et consectetur porttitor magna. Ut aenean est
+            tincidunt scelerisque cursus tempus. A, nibh enim, sit velit. Cursus
+            sed porttitor vulputate id duis mauris. Vitae et, senectus vulputate
+            ut. Pharetra arcu velit nunc in metus. Purus tincidunt porttitor
+            maecenas velit adipiscing. Donec eget facilisis est libero mauris eu
+            urna quis donec. Volutpat suspendisse auctor etiam rhoncus congue
+            fermentum ipsum accumsan, quis. Lorem est elementum vivamus morbi
+            aenean auctor malesuada cursus viverra. Lorem risus quam amet nec
+            turpis.
+          </p>
+          <p class="article_text">
+            Auctor ipsum arcu enim ante sed elementum sit. Cum turpis nunc,
+            mauris massa in erat amet, aliquet. Scelerisque est tristique
+            suspendisse massa ac sit id
+          </p>
+        </article>
+        <article class="facts">
+          <h3 class="article_title">Fun facts you need to know</h3>
+          <div class="single_fact">
+            <h4 class="article_subtitle">Lorem, ipsum dolor.</h4>
+            <p class="article_text fact_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              molestias recusandae voluptates eius ipsam incidunt aliquid,
+              laboriosam veniam harum necessitatibus eligendi similique
+              expedita, placeat id pariatur officiis veritatis eum voluptatum!
+            </p>
+          </div>
+          <div class="single_fact">
+            <h4 class="article_subtitle">Lorem, ipsum dolor.</h4>
+            <p class="article_text fact_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              molestias recusandae voluptates eius ipsam incidunt aliquid,
+              laboriosam veniam harum necessitatibus eligendi similique
+              expedita, placeat id pariatur officiis veritatis eum voluptatum!
+            </p>
+          </div>
+          <div class="single_fact">
+            <h4 class="article_subtitle">Lorem, ipsum dolor.</h4>
+            <p class="article_text fact_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              molestias recusandae voluptates eius ipsam incidunt aliquid,
+              laboriosam veniam harum necessitatibus eligendi similique
+              expedita, placeat id pariatur officiis veritatis eum voluptatum!
+            </p>
+          </div>
+          <div class="single_fact">
+            <h4 class="article_subtitle">Lorem, ipsum dolor.</h4>
+            <p class="article_text fact_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              molestias recusandae voluptates eius ipsam incidunt aliquid,
+              laboriosam veniam harum necessitatibus eligendi similique
+              expedita, placeat id pariatur officiis veritatis eum voluptatum!
+            </p>
+          </div>
+        </article>
+        <article class="destination">
+          <h3 class="article_title">Destinations you might love to visit</h3>
+
+          <div class="slider">
+            <div class="card">
+              <h4 class="card_title">Alun-Alun</h4>
+              <img
+                src="./assets/images/alun-alun.jpg"
+                alt="alun-alun Kota Malang"
+                class="image card_image"
+              />
+              <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                sunt nihil porro vel repellendus quisquam voluptate. Numquam
+                assumenda officia excepturi architecto ex recusandae qui vero?
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card_title">Tugu</h4>
+              <img
+                src="./assets/images/alun-alun.jpg"
+                alt="alun-alun Kota Malang"
+                class="image card_image"
+              />
+              <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                sunt nihil porro vel repellendus quisquam voluptate. Numquam
+                assumenda officia excepturi architecto ex recusandae qui vero?
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card_title">Masjid Jami'</h4>
+              <img
+                src="./assets/images/alun-alun.jpg"
+                alt="alun-alun Kota Malang"
+                class="image card_image"
+              />
+              <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                sunt nihil porro vel repellendus quisquam voluptate. Numquam
+                assumenda officia excepturi architecto ex recusandae qui vero?
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <article class="biodata"></article>
+        <article class="contact"></article>
+      </aside>
       <footer></footer>
     </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
     <script src="./assets/app.js"></script>
   </body>
 </html>

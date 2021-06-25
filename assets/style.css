@@ -51,7 +51,7 @@ nav {
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.2);
 }
-nav .logo {
+.logo p {
   font-family: var(--title);
   font-weight: bold;
   font-size: 18px;
@@ -122,6 +122,8 @@ article {
   margin: 0.5rem;
 }
 
+.slider {
+}
 .card {
   margin: 0 15px;
   padding: 30px 20px;
@@ -198,6 +200,7 @@ textarea {
   font-family: var(--text);
   letter-spacing: 2px;
   color: rgb(37, 35, 35);
+  outline: none;
 }
 
 footer {
@@ -207,5 +210,9 @@ footer {
   align-items: center;
   color: rgb(224, 219, 219);
   background-color: #1f333c;
-  height: 5rem;
+  padding: 1.5rem;
+}
+
+.footer-copyright {
+  margin-top: 4px;
 }

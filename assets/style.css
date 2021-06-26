@@ -70,7 +70,7 @@ nav {
   text-shadow: 0 1px 2px black;
 }
 
-ul,
+.nav-list,
 .times {
   display: none;
 }
@@ -82,19 +82,19 @@ ul,
 .hero h1 {
   font-family: var(--title);
   font-weight: bold;
-  font-size: 56px;
+  font-size: 38px;
   text-shadow: 4px 4px 6px black;
 }
 .hero h2 {
   font-family: var(--subtitle);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 26px;
   text-shadow: 4px 4px 6px black;
 }
 
 article {
   margin: 0 auto;
-  padding: 3rem;
+  padding: 3rem 1.2rem;
   text-align: center;
   /* border: 2px solid blue; */
 }
@@ -142,10 +142,19 @@ article {
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+.dot-container {
+  position: relative;
+  margin: 0.6rem auto;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .biodata-card {
   margin-bottom: 2rem;
-  padding: 3rem 0 4rem;
+  padding: 3rem 10px 4rem;
 }
 .biodata-image {
   font-size: 2.5rem;
@@ -166,16 +175,16 @@ article {
 }
 .contact-form-email {
   border: none;
-  width: 75%;
+  width: 85%;
   height: 35px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 1.5rem;
   padding: 20px;
 }
 .contact-form-container {
   margin: 0 auto;
   position: relative;
-  width: 75%;
+  width: 85%;
 }
 .contact-form-message {
   width: 100%;
@@ -215,4 +224,7 @@ footer {
 
 .footer-copyright {
   margin-top: 4px;
+}
+
+@media screen and (min-width: 630px) {
 }

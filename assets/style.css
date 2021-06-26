@@ -58,26 +58,26 @@ nav {
   text-shadow: 0 1px 2px black;
 }
 
-.bars {
+.toggleNav {
   background: none;
   border: none;
   color: white;
   cursor: pointer;
 }
-.bars i.fa-bars {
+.toggleNav i.fa-bars {
   font-weight: bold;
   font-size: 26px;
   text-shadow: 0 1px 2px black;
 }
 
-.nav-list,
-.times {
+.nav-list {
   display: none;
 }
 
 .hero {
   text-align: center;
   max-width: 500px;
+  width: 90%;
 }
 .hero h1 {
   font-family: var(--title);

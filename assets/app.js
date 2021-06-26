@@ -1,4 +1,10 @@
 const dotContainer = document.querySelector(".dot-container");
+const toggleNavBtn = document.querySelector(".toggleNav");
+const closeNavBtn = document.querySelector(".closeNav");
+const navList = document.querySelector(".nav-list");
+
+// Toggle Navigation
+toggleNavBtn.addEventListener("click", () => {});
 
 $(".slider").slick({
   accessibility: true,

@@ -29,19 +29,9 @@ h4 {
   font-size: 26px;
 }
 
-header {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background: url("./images/malang.png") center/cover no-repeat;
-}
-
+/* NAVIGATION */
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -49,7 +39,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.438);
+  z-index: 100;
 }
 .logo p {
   font-family: var(--title);
@@ -57,7 +48,6 @@ nav {
   font-size: 18px;
   text-shadow: 0 1px 2px black;
 }
-
 .toggleNav {
   background: none;
   border: none;
@@ -69,11 +59,53 @@ nav {
   font-size: 26px;
   text-shadow: 0 1px 2px black;
 }
-
 .nav-list {
-  display: none;
+  position: absolute;
+  background-color: rgb(180, 241, 241);
+  top: 0;
+  height: 100vh;
+  right: 0;
+  width: 300px;
+  list-style: none;
+  padding: 2rem;
+  transform: translate(100%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+.nav-list.toggle {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.nav-list li {
+  margin-bottom: 1rem;
+}
+.nav-link {
+  color: #1f333c;
+  text-decoration: none;
+  font-family: var(--subtitle);
+  font-size: 30px;
+}
+.closeNav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  cursor: pointer;
 }
 
+/* HERO */
+header {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: url("./images/malang.png") center/cover no-repeat;
+}
 .hero {
   text-align: center;
   max-width: 500px;
@@ -125,6 +157,7 @@ article {
 .slider {
 }
 .card {
+  z-index: 0;
   margin: 0 15px;
   padding: 30px 20px;
   border-radius: 20px;

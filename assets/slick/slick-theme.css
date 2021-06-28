@@ -22,17 +22,12 @@
   font-size: 15px;
 
   position: absolute;
-  /* top: 50%; */
 
   display: block;
 
   width: 20px;
   height: 20px;
   padding: 0;
-  /* -webkit-transform: translate(0, -1065%);
-  -ms-transform: translate(0, -1065%);
-  transform: translate(0, 1075%); */
-  z-index: 100;
   cursor: pointer;
   opacity: 0.4;
   color: black;

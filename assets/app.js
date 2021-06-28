@@ -2,9 +2,22 @@ const dotContainer = document.querySelector(".dot-container");
 const toggleNavBtn = document.querySelector(".toggleNav");
 const closeNavBtn = document.querySelector(".closeNav");
 const navList = document.querySelector(".nav-list");
+const navLink = document.querySelectorAll("nav-link");
 
 // Toggle Navigation
-toggleNavBtn.addEventListener("click", () => {});
+toggleNavBtn.addEventListener("click", () => {
+  navList.classList.add("toggle");
+});
+navList.addEventListener("click", (e) => {
+  let target = e.target;
+  console.log(e.target.classList.contains("nav-link"));
+  if (
+    target.classList.contains("nav-link") ||
+    target.classList.contains("closeNav")
+  ) {
+    navList.classList.remove("toggle");
+  }
+});
 
 $(".slider").slick({
   accessibility: true,

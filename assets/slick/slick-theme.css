@@ -20,7 +20,7 @@
 .slick-prev,
 .slick-next {
   font-size: 15px;
-
+  z-index: 89;
   position: absolute;
 
   display: block;

@@ -1,6 +1,5 @@
 const dotContainer = document.querySelector(".dot-container");
 const toggleNavBtn = document.querySelector(".toggleNav");
-const closeNavBtn = document.querySelector(".closeNav");
 const navList = document.querySelector(".nav-list");
 const navLink = document.querySelectorAll("nav-link");
 
@@ -13,7 +12,7 @@ navList.addEventListener("click", (e) => {
   console.log(e.target.classList.contains("nav-link"));
   if (
     target.classList.contains("nav-link") ||
-    target.classList.contains("closeNav")
+    target.classList.contains("fa-times")
   ) {
     navList.classList.remove("toggle");
   }
@@ -32,4 +31,6 @@ $(".slider").slick({
     '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
   infinite: true,
   mobileFirst: true,
+  // centerMode: true,
+  // centerPadding: '100px'
 });

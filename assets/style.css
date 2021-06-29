@@ -124,47 +124,64 @@ header {
   text-shadow: 4px 4px 6px black;
 }
 
+/* ARTICLE */
 article {
   margin: 0 auto;
   padding: 3rem 1.2rem;
   text-align: center;
-  /* border: 2px solid blue; */
 }
-
+.article-title,
+.article_subtitle,
+.article_text,
+.single_fact {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image {
   width: 100%;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
   margin: 0.5rem;
 }
 .article_title {
   margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .article_subtitle {
   margin-top: 2rem;
 }
 .article_text {
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
 }
+
+/* FACTS */
 .single_fact {
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 300px;
 }
 .fact_text {
   margin: 0.5rem;
 }
 
+/* DESTINATION */
 .slider {
+  max-width: 500px;
+  margin: 0 auto;
 }
 .card {
   z-index: 0;
-  margin: 0 15px;
-  padding: 30px 20px;
+  margin: 0 auto;
   border-radius: 20px;
-  max-width: 500px;
   color: white;
   background-color: #1f333c;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+.slider-card {
+  margin: 0 10px;
+  padding: 30px 20px;
 }
 .card_title {
   margin-bottom: 1.5rem;
@@ -185,6 +202,15 @@ article {
   align-items: center;
 }
 
+/* CONTACT */
+.contact-card,
+.biodata-card {
+  max-width: 400px;
+}
+.biodata-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
 .biodata-card {
   margin-bottom: 2rem;
   padding: 3rem 10px 4rem;
@@ -199,6 +225,7 @@ article {
 
 .contact-card {
   margin-bottom: 3rem;
+  padding: 30px 20px;
 }
 .contact-title {
   margin-bottom: 1.5rem;
@@ -259,5 +286,5 @@ footer {
   margin-top: 4px;
 }
 
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 512px) {
 }

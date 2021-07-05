@@ -325,4 +325,40 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
+  /* HERO */
+  .hero {
+  }
+  .hero h1 {
+    font-size: 80px;
+  }
+  .hero h2 {
+    font-weight: 100;
+    letter-spacing: 4px;
+  }
+  /* ABOUT */
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .text-container {
+    flex-grow: 1;
+  }
+  .flex {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .flex-unreverse .image {
+    margin-right: 5rem;
+  }
+  .flex-reverse {
+    flex-direction: row-reverse;
+  }
+  .flex-reverse .image {
+    margin-left: 3rem;
+  }
 }

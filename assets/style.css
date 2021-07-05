@@ -286,5 +286,43 @@ footer {
   margin-top: 4px;
 }
 
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 720px) {
+  .hero {
+    max-width: 700px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 38px;
+  }
+  .toggleNav {
+    display: none;
+  }
+  .nav-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    padding: 0;
+    list-style: none;
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  .nav-list .closeNav {
+    display: none;
+  }
+  .nav-list li {
+    margin: 0 8px;
+  }
+  .nav-link {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
 }

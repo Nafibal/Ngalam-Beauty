@@ -223,9 +223,11 @@ article {
   margin-bottom: 2rem;
   height: 380px;
 }
+
 .biodata-image {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 .biodata-name {
   margin-bottom: 1.5rem;
@@ -423,6 +425,10 @@ footer {
     width: 100%;
     max-width: 350px;
     margin-bottom: 0;
+  }
+  .biodata-image {
+    width: 100px;
+    border-radius: 50%;
   }
   .contact-card {
     width: 100%;

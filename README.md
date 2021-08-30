@@ -3,4 +3,4 @@ Project ini dibuat sebagai submission tugas akhir kelas Belajar Dasar Pemrograma
 
 link Mockup & UI design : https://www.figma.com/file/PTZg9amzAjyrlfItQX7MYV/Ngalam-Beauty?node-id=4%3A2
 
-link website: https://app.netlify.com/sites/ngalam-beauty/settings/general
+link website: https://ngalam-beauty.netlify.app/
